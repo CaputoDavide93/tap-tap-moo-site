@@ -43,6 +43,7 @@ tap-tap-moo-site/
 ├── index.html          # 🏠 home
 ├── privacy/index.html  # 🔒 privacy policy
 ├── contact/index.html  # ✉️ contact and support
+├── it/                 # 🇮🇹 the same three pages in Italian
 ├── assets/
 │   ├── site.css        # 🎨 light and dark styles
 │   └── mark.svg        # 🌤️ the sun on a cloud (favicon)
