@@ -20,7 +20,7 @@
 | 🔒 | [Privacy policy](https://caputodavide93.github.io/tap-tap-moo-site/privacy/) | What the app keeps on the device, the voice, the microphone, purchases, children. Linked from the app's settings and the store listings |
 | ✉️ | [Contact](https://caputodavide93.github.io/tap-tap-moo-site/contact/) | Support address and common questions. Linked from the app's settings and the store listings |
 | 🌱 | [Philosophy](https://caputodavide93.github.io/tap-tap-moo-site/philosophy/) | Why the app exists: the app's own "Why" screen, word for word |
-| 🌍 | Every language | Each page in English, Italian (`it/`), Spanish (`es/`) and French (`fr/`), linked to the same page in the others. The app opens the privacy and contact pages in its own language |
+| 🌍 | Every language | Each page in English, Italian (`it/`), Spanish (`es/`), French (`fr/`), German (`de/`), Brazilian Portuguese (`pt/`), Dutch (`nl/`) and Polish (`pl/`), linked to the same page in all of them. The app opens the privacy and contact pages in its own language |
 | 🌗 | Light and dark | Follows the reader's system setting, in the app's own colours |
 | 🚫 | No tracking | No scripts, cookies or analytics |
 
@@ -49,6 +49,10 @@ tap-tap-moo-site/
 ├── it/                    # 🇮🇹 the same pages in Italian
 ├── es/                    # 🇪🇸 the same pages in Spanish
 ├── fr/                    # 🇫🇷 the same pages in French
+├── de/                    # 🇩🇪 the same pages in German
+├── pt/                    # 🇧🇷 the same pages in Brazilian Portuguese
+├── nl/                    # 🇳🇱 the same pages in Dutch
+├── pl/                    # 🇵🇱 the same pages in Polish
 ├── assets/
 │   ├── site.css           # 🎨 light and dark styles
 │   └── mark.svg           # 🌤️ the sun on a cloud (favicon)
