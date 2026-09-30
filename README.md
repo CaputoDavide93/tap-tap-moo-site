@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌤️ Tap Tap Moo site
+# 🐄 Tap Tap Moo site
 
 **The public home, privacy policy, contact and philosophy pages for the Tap Tap Moo app**
 
@@ -54,8 +54,10 @@ tap-tap-moo-site/
 ├── nl/                    # 🇳🇱 the same pages in Dutch
 ├── pl/                    # 🇵🇱 the same pages in Polish
 ├── assets/
-│   ├── site.css           # 🎨 light and dark styles
-│   └── mark.svg           # 🌤️ the sun on a cloud (favicon)
+│   ├── apple-touch-icon.png  # 🐄 the app icon for a phone's home screen
+│   ├── favicon.png        # 🐄 the app icon in the browser tab
+│   ├── icon.png           # 🐄 the app icon beside the name on every page
+│   └── site.css           # 🎨 light and dark styles
 ├── .nojekyll              # serve files as they are
 ├── .gitignore
 ├── README.md
