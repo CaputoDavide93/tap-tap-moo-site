@@ -17,7 +17,7 @@
 | | Page | What it is |
 |---|---|---|
 | 🏠 | [Home](https://caputodavide93.github.io/tap-tap-moo-site/) | What the app is, in a few lines |
-| 🔒 | [Privacy policy](https://caputodavide93.github.io/tap-tap-moo-site/privacy/) | What the app keeps on the device, the voice, the microphone, purchases, children. Linked from the app's settings and the store listings |
+| 🔒 | [Privacy policy](https://caputodavide93.github.io/tap-tap-moo-site/privacy/) | What the app keeps on the device, the voice, the microphone, payments (none: nothing is sold), children. Linked from the app's settings and the store listings |
 | ✉️ | [Contact](https://caputodavide93.github.io/tap-tap-moo-site/contact/) | Support address and common questions. Linked from the app's settings and the store listings |
 | 🌱 | [Philosophy](https://caputodavide93.github.io/tap-tap-moo-site/philosophy/) | Why the app exists: the app's own "Why" screen, word for word |
 | 🌍 | Every language | Each page in English, Italian (`it/`), Spanish (`es/`), French (`fr/`), German (`de/`), Brazilian Portuguese (`pt/`), Dutch (`nl/`) and Polish (`pl/`), linked to the same page in all of them. The app opens the privacy and contact pages in its own language |
