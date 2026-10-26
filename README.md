@@ -161,7 +161,7 @@ tap-tap-moo-site/
 ├── assets/                # 🎨 site.css and the app icon in three sizes
 ├── docs/                  # 📚 setup, how it works, FAQ, troubleshooting
 │   └── assets/            # 🖼️ diagrams, screenshots, brand icon, social preview
-├── tools/                 # 🔧 check_site.py, gen_diagram.py, screenshots/
+├── tools/                 # 🔧 check_site.py, gen_diagram.py, brand/, screenshots/
 ├── .github/workflows/     # 🤖 ci.yml runs make check
 ├── Makefile               # ⚙️ check, serve, diagram, screenshots, social
 ├── llms.txt               # 🤖 the site in one plain-text page for search tools

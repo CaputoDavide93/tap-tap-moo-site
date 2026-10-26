@@ -19,5 +19,6 @@ screenshots: ## Retake docs/assets/screenshots/ from the served site (not CI)
 	.venv-screenshots/bin/python -m playwright install chromium
 	.venv-screenshots/bin/python tools/screenshots/take_screenshots.py
 
-social: ## Redraw docs/assets/social-preview.png (not CI)
-	.venv-screenshots/bin/python tools/screenshots/social_preview.py
+social: ## Redraw docs/assets/social-preview.png in the shared layout (needs Google Chrome and Pillow, not CI)
+	python3 tools/brand/brand_kit.py social --name "Tap Tap Moo site" --tagline "Privacy policy, support and philosophy pages for a calm first-words app" --chip "Every app language" --chip "Light and dark" --chip "No scripts or cookies" --chip "Static HTML" \
+		--icon docs/assets/brand/icon.png --hue 50 --out docs/assets/social-preview.png

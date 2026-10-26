@@ -58,6 +58,6 @@ the live page afterwards at
 
 ```bash
 make screenshots   # docs/assets/screenshots/
-make social        # docs/assets/social-preview.png
+make social        # docs/assets/social-preview.png, drawn by tools/brand/brand_kit.py from the site icon
 make diagram       # docs/assets/architecture-*.svg
 ```
