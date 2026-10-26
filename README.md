@@ -157,7 +157,13 @@ tap-tap-moo-site/
 ├── privacy/index.html     # 🔒 privacy policy
 ├── contact/index.html     # ✉️ contact and support
 ├── philosophy/index.html  # 🌱 why the app exists
-├── it/ es/ fr/ de/ pt/ nl/ pl/   # 🌍 the same four pages per language
+├── it/                    # 🌍 the same four pages in Italian
+├── es/                    # 🌍 the same four pages in Spanish
+├── fr/                    # 🌍 the same four pages in French
+├── de/                    # 🌍 the same four pages in German
+├── pt/                    # 🌍 the same four pages in Portuguese
+├── nl/                    # 🌍 the same four pages in Dutch
+├── pl/                    # 🌍 the same four pages in Polish
 ├── assets/                # 🎨 site.css and the app icon in three sizes
 ├── docs/                  # 📚 setup, how it works, FAQ, troubleshooting
 │   └── assets/            # 🖼️ diagrams, screenshots, brand icon, social preview
