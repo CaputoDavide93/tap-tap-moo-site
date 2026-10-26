@@ -4,7 +4,7 @@
 
 # 🐄 Tap Tap Moo site
 
-**Privacy policy, support and philosophy pages for the Tap Tap Moo first-words app, in every language the app speaks, with no scripts, cookies or trackers**
+**Privacy policy, support and philosophy pages for the Tap Tap Moo first-words app, in every language the app speaks**
 
 ![HTML](https://img.shields.io/badge/HTML-static-E34F26?logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-light_and_dark-1572B6?logo=css3&logoColor=white)
@@ -18,47 +18,11 @@
 
 ## ✨ Features
 
-This repository is the public website for **Tap Tap Moo**, a calm first-words
-game for babies and toddlers on iPhone, iPad and Android. App stores need a
-privacy policy and a support page, and the app opens both from its Settings.
-This site is where they live. Open it at
-[caputodavide93.github.io/tap-tap-moo-site](https://caputodavide93.github.io/tap-tap-moo-site/).
+This is the website for **Tap Tap Moo**, a calm first-words game for babies and toddlers on iPhone, iPad and Android. The app opens the privacy policy and the support page in its own language from its Settings, and the store listings link to them, so those addresses stay fixed.
 
-### Why it exists
+The privacy page says what stays on the device, what the microphone is for, that nothing is sold, and how to delete everything. It exists in English, Italian, Spanish, French, German, Brazilian Portuguese, Dutch and Polish, and each page links to its twin in the other languages.
 
-A parent handing a phone to a small child wants to know one thing before they
-tap Install: what does this app keep, and who sees it? The answer has to be
-on a page they can read in their own language, on their phone, without a
-cookie banner. The stores want the same page as a link.
-
-So the policy is a plain static page. It says what stays on the device, what
-the microphone is for, that nothing is sold, and how to delete everything. The
-same page exists in each language the app ships, and each page links to its
-twin in every other language.
-
-| | This site | A policy page on a generic site builder | A policy PDF |
-|---|---|---|---|
-| Scripts, cookies, analytics | None (a check fails the build if a script or form appears) | Often present | None |
-| Readable on a phone | Yes, one column from 375 px | Depends on the theme | Pinch and zoom |
-| Light and dark | Follows the reader's system setting | Depends on the theme | No |
-| Same page in every app language | Yes, linked from each page | Usually one language | One file per language, hard to link |
-| Stable URLs the stores can keep | `/privacy/`, `/contact/`, `/<lang>/privacy/` | Tied to the builder | Tied to a file name |
-| Review the change before it goes live | Pull request, then GitHub Pages publishes `main` | Edit in a web editor | Replace the file |
-
-The one trade-off: every language is a separate hand-written file, so a change
-to the policy means editing all of them, and GitHub Pages may keep standard
-server logs for visitors. Both are stated on the site.
-
-### Install in 3 steps
-
-There is nothing to install to read the site. To preview or edit it you need
-Python 3 (any recent version) and a browser.
-
-1. **Clone:** `git clone https://github.com/CaputoDavide93/tap-tap-moo-site.git && cd tap-tap-moo-site`
-2. **Serve:** `make serve` (the same as `python3 -m http.server 8000`).
-3. **Open** <http://localhost:8000/>. Run `make check` before you push.
-
-### What you get
+Live at [caputodavide93.github.io/tap-tap-moo-site](https://caputodavide93.github.io/tap-tap-moo-site/).
 
 | | Page | What it is |
 |---|---|---|
@@ -70,6 +34,8 @@ Python 3 (any recent version) and a browser.
 | 🌗 | Light and dark | Follows the reader's system setting, in the app's own colours |
 | 🚫 | No tracking | No scripts, forms, cookies or analytics, and a check that fails if one appears |
 | 🧪 | Self-checking | `make check` verifies every page exists in every language, every local link resolves, and the support address is the only one |
+
+The pages are plain HTML and CSS: no scripts, forms, cookies or analytics, and a check fails the build if one appears. Every language is a separate hand-written file, so a change to the policy means editing all of them. GitHub Pages may keep standard server logs for visitors, and the privacy page says so.
 
 ---
 
@@ -124,17 +90,16 @@ How it is built is in [docs/how-it-works.md](docs/how-it-works.md).
 
 ## 🚀 Quick Start
 
+You need Python 3 and a browser. There is no build step, and `make check` uses only the standard library.
+
 ```bash
+git clone https://github.com/CaputoDavide93/tap-tap-moo-site.git
+cd tap-tap-moo-site
 make serve     # preview at http://localhost:8000
-make check     # page, link and diagram checks, the same as CI
+make check     # the same checks CI runs
 ```
 
-GitHub Pages publishes the `main` branch root, so a merged pull request is the
-release. The privacy pages must stay true to the app's own privacy document:
-change both together, in every language. Settings paths and labels are quoted
-from the app's ARB files (`lib/l10n/app_*.arb`), and the philosophy pages are
-its `whyTitle` to `whyClosing` copy, in the order the screen shows it. More in
-[docs/setup.md](docs/setup.md).
+Editing a page, retaking the images and what each check covers are in [docs/setup.md](docs/setup.md).
 
 ---
 
@@ -176,6 +141,17 @@ tap-tap-moo-site/
 ├── .nojekyll              # serve files as they are
 └── .gitignore
 ```
+
+---
+
+## 📦 Deployment
+
+GitHub Pages serves the root of `main`, so a merged pull request is the release.
+CI runs `make check` on every pull request and on every push to `main`. The
+privacy pages must stay true to the app's own privacy document: change both
+together, in every language. Settings paths and labels are quoted from the app's
+ARB files (`lib/l10n/app_*.arb`), and the philosophy pages are its `whyTitle` to
+`whyClosing` copy, in the order the screen shows it.
 
 ---
 
