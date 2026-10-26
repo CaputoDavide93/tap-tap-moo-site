@@ -1,0 +1,25 @@
+# Tap Tap Moo site
+
+> The public website for Tap Tap Moo, a calm first-words app for babies and toddlers on iPhone, iPad and Android. It holds the app's privacy policy, contact and support page, and philosophy page, each in English, Italian, Spanish, French, German, Brazilian Portuguese, Dutch and Polish. Static HTML and CSS served by GitHub Pages, with no scripts, forms, cookies or analytics. MIT licensed.
+
+Key facts:
+
+- Live site: https://caputodavide93.github.io/tap-tap-moo-site/
+- Privacy policy: https://caputodavide93.github.io/tap-tap-moo-site/privacy/ (other languages at /it/privacy/, /es/privacy/, /fr/privacy/, /de/privacy/, /pt/privacy/, /nl/privacy/, /pl/privacy/).
+- What the privacy policy says about the app: no account, no servers, no analytics, ads or tracking, nothing leaves the device unless the user emails support. Settings, the optional child's name, recordings and photos stay on the device. No purchases and no subscription.
+- Read the policy itself for the exact wording and its effective date; this summary is not a substitute.
+- Contact and support page: https://caputodavide93.github.io/tap-tap-moo-site/contact/ (the support address is on that page).
+- Built from plain files: one index.html per page, one shared stylesheet with light and dark colours. No build step.
+- Tested: layout and screenshots in Chromium on macOS, light and dark. Safari, Firefox and screen readers are unverified.
+- Preview and check locally: `make serve`, then `make check` (needs Python 3).
+- Trade-off: each language is a separate file, so a change to the policy is edited in all of them. GitHub Pages may keep standard server logs.
+- Independent project by Davide Caputo.
+
+## Docs
+
+- [README](https://github.com/CaputoDavide93/tap-tap-moo-site/blob/main/README.md): what the site is, why it exists, install, tested on, repo structure
+- [Setup](https://github.com/CaputoDavide93/tap-tap-moo-site/blob/main/docs/setup.md): preview, edit a page, add a language, publish
+- [How it works](https://github.com/CaputoDavide93/tap-tap-moo-site/blob/main/docs/how-it-works.md): pages, URLs, language rows, styles, checks
+- [FAQ](https://github.com/CaputoDavide93/tap-tap-moo-site/blob/main/docs/faq.md): cookies, languages, reuse, reporting a problem
+- [Troubleshooting](https://github.com/CaputoDavide93/tap-tap-moo-site/blob/main/docs/troubleshooting.md): symptoms and fixes
+- [Contributing](https://github.com/CaputoDavide93/tap-tap-moo-site/blob/main/CONTRIBUTING.md)
