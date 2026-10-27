@@ -231,8 +231,8 @@ def architecture(scheme):
     xs, top = [24, 456, 888], 56
     mid = top + H / 2
     k.add(
-        k.box(xs[0], top, W, H, "App and store listings", ["Settings rows, Privacy Policy URL,", "Support URL"], icon="phone"),
-        k.box(xs[1], top, W, H, "Parent's browser", ["Opens the page in its own language"], icon="laptop"),
+        k.box(xs[0], top, W, H, "App and Store Listings", ["Settings rows, Privacy Policy URL,", "Support URL"], icon="phone"),
+        k.box(xs[1], top, W, H, "Parent's Browser", ["Opens the page in its own language"], icon="laptop"),
         k.box(xs[2], top, W, H, "This site", ["Static HTML and CSS on GitHub Pages"], icon="server", tone="accent"),
         k.edge([(xs[0] + W + 8, mid), (xs[1] - 8, mid)], label="link (after the sum)"),
         k.edge([(xs[1] + W + 8, mid), (xs[2] - 8, mid)], label="GET page + CSS"),
